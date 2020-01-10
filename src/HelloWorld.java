@@ -10,6 +10,8 @@ class HelloWorld
     public static void main(String args[]) 
     { 
          String ta = "heloooooo";
+         String ta1 = "heloooooo";
+         String ta2 = "heloooooo";
          System.out.println(ta);
     } 
 } 
