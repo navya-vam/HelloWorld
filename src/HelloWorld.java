@@ -9,7 +9,7 @@ class HelloWorld
     // Prints "Hello, World" to the terminal window. 
     public static void main(String args[]) 
     { 
-         var ta = "heloooooo";
+         String ta = "heloooooo";
          System.out.println(ta);
     } 
 } 
