@@ -7,7 +7,7 @@ public class Dog
     {
         int ag = 0; //local variable
         String ab = "hello"
-        System.out.println("Dog age is : " + ab);
+        //System.out.println("Dog age is : " + ab);
         ag = ag + 6;
         System.out.println("Dog age is : " + ag);
     }
