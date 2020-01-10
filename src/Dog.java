@@ -6,6 +6,8 @@ public class Dog
 
     {
         int age = 0; //local variable
+        String ab = "hello"
+        System.out.println("Dog age is : " + ab);
         age = age + 6;
         System.out.println("Dog age is : " + age);
     }
