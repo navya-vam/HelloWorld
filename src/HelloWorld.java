@@ -9,11 +9,7 @@ class HelloWorld
     // Prints "Hello, World" to the terminal window. 
     public static void main(String args[]) 
     { 
-         int target = -5;
-         int num = 3;
-
-         target = -num; // Compliant; intent to assign inverse value of num is clear
-         target += num;
-         System.out.println(target);
+         var ta = "heloooooo";
+         System.out.println(ta);
     } 
 } 
