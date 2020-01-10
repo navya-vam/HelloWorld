@@ -3,20 +3,17 @@
    hii
    hello
  */
-TODO
 class HelloWorld 
 { 
     // Your program begins with a call to main(). 
     // Prints "Hello, World" to the terminal window. 
     public static void main(String args[]) 
     { 
-        String data = "this is amazing /* comment */ more data ";
-        Pattern pattern = Pattern.compile("/\\*.*?\\*/");
+         int target = -5;
+         int num = 3;
 
-    Matcher matcher = pattern.matcher(data);
-    while (matcher.find()) {
-        // Indicates match is found. Do further processing
-        System.out.println(matcher.group());
-    
+         target = -num; // Compliant; intent to assign inverse value of num is clear
+         target += num;
+         System.out.println(target);
     } 
 } 
