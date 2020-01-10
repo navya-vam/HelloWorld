@@ -10,6 +10,13 @@ class HelloWorld
     // Prints "Hello, World" to the terminal window. 
     public static void main(String args[]) 
     { 
-        System.out.println("Hello, World"); // This is a trailing comment that can be very very long
+        String data = "this is amazing /* comment */ more data ";
+        Pattern pattern = Pattern.compile("/\\*.*?\\*/");
+
+    Matcher matcher = pattern.matcher(data);
+    while (matcher.find()) {
+        // Indicates match is found. Do further processing
+        System.out.println(matcher.group());
+    }
     } 
 } 
